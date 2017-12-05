@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     ss.exclude_files = "ios/Exponent/EXAppDelegate.*", "ios/Exponent/EXRootViewController.*", "ios/Exponent/Supporting/**", "ios/UnversionedModules/Payments/**", "ios/Exponent/Versioned/Modules/Api/GL/ARKit/**", "ios/Exponent/Versioned/Modules/Api/Components/FaceDetector/**"
 
     ss.dependency 'Amplitude-iOS', '~> 3.8'
-    ss.dependency 'Analytics', '3.6.0'
+    ss.dependency 'Analytics', '3.5.0'
     ss.dependency 'AppAuth', '~> 0.4'
     ss.dependency 'CocoaLumberjack', '~> 3.2.1'
     ss.dependency 'Crashlytics', '~> 3.8'
